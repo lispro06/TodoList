@@ -17,6 +17,8 @@
 		494D292E291C7C57002E2FA6 /* TodoListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494D292D291C7C57002E2FA6 /* TodoListTests.swift */; };
 		494D2938291C7C57002E2FA6 /* TodoListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494D2937291C7C57002E2FA6 /* TodoListUITests.swift */; };
 		494D293A291C7C57002E2FA6 /* TodoListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494D2939291C7C57002E2FA6 /* TodoListUITestsLaunchTests.swift */; };
+		494D2948291C7E3F002E2FA6 /* itemName+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494D2946291C7E3F002E2FA6 /* itemName+CoreDataClass.swift */; };
+		494D2949291C7E3F002E2FA6 /* itemName+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494D2947291C7E3F002E2FA6 /* itemName+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		494D2933291C7C57002E2FA6 /* TodoListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		494D2937291C7C57002E2FA6 /* TodoListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListUITests.swift; sourceTree = "<group>"; };
 		494D2939291C7C57002E2FA6 /* TodoListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		494D2946291C7E3F002E2FA6 /* itemName+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "itemName+CoreDataClass.swift"; sourceTree = "<group>"; };
+		494D2947291C7E3F002E2FA6 /* itemName+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "itemName+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 		494D2907291C7C56002E2FA6 = {
 			isa = PBXGroup;
 			children = (
+				494D2946291C7E3F002E2FA6 /* itemName+CoreDataClass.swift */,
+				494D2947291C7E3F002E2FA6 /* itemName+CoreDataProperties.swift */,
 				494D2912291C7C56002E2FA6 /* TodoList */,
 				494D292C291C7C57002E2FA6 /* TodoListTests */,
 				494D2936291C7C57002E2FA6 /* TodoListUITests */,
@@ -262,9 +268,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				494D2918291C7C56002E2FA6 /* ViewController.swift in Sources */,
+				494D2948291C7E3F002E2FA6 /* itemName+CoreDataClass.swift in Sources */,
 				494D2914291C7C56002E2FA6 /* AppDelegate.swift in Sources */,
 				494D2916291C7C56002E2FA6 /* SceneDelegate.swift in Sources */,
 				494D291E291C7C56002E2FA6 /* TodoList.xcdatamodeld in Sources */,
+				494D2949291C7E3F002E2FA6 /* itemName+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
