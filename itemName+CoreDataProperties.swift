@@ -17,6 +17,7 @@ extension itemName {
     }
 
     @NSManaged public var title: String?
+    @NSManaged public var desc: String?
 
 }
 
